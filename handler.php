@@ -8,7 +8,7 @@ require 'php/PHPMailer-5.2.28/src/PHPMailer.php';
 require 'php/PHPMailer-5.2.28/src/SMTP.php';
 
 $mail = new PHPMailer(true);
-$mail_to_email = 'albdominguez25@gmail.com'; // your email
+$mail_to_email = 'luis.diaz@luisdiaz.info'; // your email
 $mail_to_name = 'Webmaster';
 
 try {
@@ -23,7 +23,7 @@ try {
 	$mail->Host = 'smtp.ionos.mx'; // Set the SMTP server to send through
 	$mail->SMTPAuth = true; // Enable SMTP authentication
 	$mail->Username = 'luis.diaz@luisdiaz.info'; // SMTP username
-	$mail->Password = '***'; // SMTP password
+	$mail->Password = ''; // SMTP password
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 	$mail->Port = 465; // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
