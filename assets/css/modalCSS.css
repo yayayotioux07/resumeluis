@@ -5,8 +5,8 @@
 }
 
 .modal-body {
-  position: relative;
-  padding: 0px;
+  max-height: calc(100vh - 200px);
+     overflow-y: auto;
 }
 .close2 {
   position: absolute;
