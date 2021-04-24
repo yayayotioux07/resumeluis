@@ -12,7 +12,7 @@ $(document).ready(function() {
     // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
     $("#video").attr(
       "src",
-      $videoSrc + "?autoplay=1&showinfo=0&modestbranding=1&rel=0&mute=1"
+      $videoSrc + "?autoplay=1&showinfo=0&modestbranding=1&rel=0&mute=0"
     );
   });
 
